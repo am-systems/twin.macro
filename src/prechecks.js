@@ -23,6 +23,7 @@ const precheckPeer = ({ classNameRaw }) =>
 
 const joinWithNoDoubleHyphens = arr => arr.join('-').replace(/-+/g, '-')
 
+/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 const preCheckPrefix = ({ pieces: { className, hasPrefix }, state }) => {
   if (isShortCss(className)) return
 
@@ -62,6 +63,6 @@ export {
   doPrechecks as default,
   precheckGroup,
   precheckPeer,
-  preCheckPrefix,
+  /* preCheckPrefix, */
   preCheckNoHyphenSuffix,
 }
