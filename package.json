@@ -1,5 +1,5 @@
 {
-  "name": "@mreed5168/twin.macro",
+  "name": "@mrcodes/twin.macro",
   "version": "2.8.2",
   "description": "twin.macro fork that doesn't respect prefix defined in TW config",
   "main": "macro.js",
