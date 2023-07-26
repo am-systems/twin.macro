@@ -1,6 +1,6 @@
 {
   "name": "@mrcodes/twin.macro",
-  "version": "2.8.2",
+  "version": "2.8.4",
   "description": "twin.macro fork that doesn't respect prefix defined in TW config",
   "main": "macro.js",
   "types": "types/index.d.ts",
@@ -12,6 +12,9 @@
     "test": "npm run build && jest && npm run test:types",
     "fixup": "npm run build && jest --u",
     "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.3.1"
   },
   "engines": {
     "node": ">=12.13.0"
