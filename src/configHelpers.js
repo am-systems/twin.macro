@@ -1,7 +1,7 @@
 import { resolve, relative, parse } from 'path'
 import { existsSync } from 'fs'
 import resolveTailwindConfig from 'tailwindcss/lib/util/resolveConfig'
-import defaultTailwindConfig from 'tailwindcss/stubs/defaultConfig.stub'
+import defaultTailwindConfig from 'tailwindcss/stubs/config.full'
 import { configTwinValidators, configDefaultsTwin } from './config/twinConfig'
 import flatMap from 'lodash.flatmap'
 import { logGeneralError } from './logging'
