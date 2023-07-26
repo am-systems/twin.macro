@@ -1,6 +1,6 @@
 {
   "name": "@applied.dev/twin.macro",
-  "version": "2.8.4",
+  "version": "2.8.5",
   "description": "twin.macro fork that doesn't respect prefix defined in TW config",
   "main": "macro.js",
   "types": "types/index.d.ts",
